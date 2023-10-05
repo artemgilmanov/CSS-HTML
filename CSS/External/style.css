@@ -1,0 +1,18 @@
+html{
+    background-color: blueviolet; 
+    color: pink;
+}
+
+h1{
+    font-size: 70px; 
+    text-decoration: underline;
+}
+
+p{
+    color: white;
+}
+
+span{
+    font-weight: bold; 
+    color: aqua;
+}
