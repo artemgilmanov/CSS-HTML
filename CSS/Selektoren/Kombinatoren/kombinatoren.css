@@ -1,0 +1,15 @@
+b ~ span > b{
+    color: blue;
+}
+
+.warnung ~ b{
+    color: red;
+}
+
+html head ~ body > p > b ~ #wichtig{
+    background-color: yellow;
+}
+
+p span.warnung{
+    background-color: pink;
+}
