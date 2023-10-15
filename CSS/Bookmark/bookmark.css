@@ -1,0 +1,10 @@
+div{
+    height: 300px;
+    width: 300px;
+    background-color: lightgray;
+    margin-bottom: 20px;
+}
+
+#ziel{
+    border: 20px solid #F00;
+}
