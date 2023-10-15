@@ -1,0 +1,27 @@
+body{
+    height:10000px;
+}
+
+#fixedDiv{
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+#stickyDiv{
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    position: sticky;
+    top: 50px;
+    margin-top: 200px;
+}
+
+span{
+    position: static;
+    top: 300px;
+    right: 200px;
+}
