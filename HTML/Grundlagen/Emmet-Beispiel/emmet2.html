@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="de">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Emmet 2</title>
+    </head>
+
+    <body>
+        <!--Einfache Elemente-->
+        div shift+enter
+        <div></div>
+        
+        <!--mehrfache Elemente-->
+            div*3
+            <div></div>
+            <div></div>
+            <div></div>
+
+        <!--Elemente mit Class-->
+        div.class
+        <div class="class"></div>
+
+        <!--Elemente mit Id-->
+        div#id
+        <div id="id"></div>
+
+        <!--Elemente mit Kinderelementen-->
+        div>h1
+        <div>
+            <h1></h1>
+        </div>
+
+        <!--Elemente mit Geschwisterelementen-->
+        div+h1
+        <div></div>
+        <h1></h1>
+
+        <!--Die Hierarchie aufsteigen-->
+        div>h1^p
+        <div>
+            <h1></h1>
+        </div>
+        <p></p>
+
+        <!--Elemente mit inhalt-->
+        div{Emmit ist vollSuper!}
+        <div>Emmet ist voll Super!</div>
+
+        <!------------------------------------------------------------>
+
+        <!--Elemente mit eigenen Attributen-->
+        h1[role="Überschrift"]
+        <h1 role="Überschrift"></h1>
+
+        h1[role="Überschrift" data-value="5"]
+        <h1 role="Überschrift" data-value="5"></h1>
+
+        <!--Nummerirung-->
+        div.test$*5
+        <div class="test1"></div>
+        <div class="test2"></div>
+        <div class="test3"></div>
+        <div class="test4"></div>
+        <div class="test5"></div>
+
+        <!--Nummerirung (mit mehreren Stellem)-->
+        div.test$$$*5
+        <div class="test001"></div>
+        <div class="test002"></div>
+        <div class="test003"></div>
+        <div class="test004"></div>
+        <div class="test005"></div>
+
+        <!--Nummerirung (mit Startwert)-->
+        div.test$@3*5
+        <div class="test3"></div>
+        <div class="test4"></div>
+        <div class="test5"></div>
+        <div class="test6"></div>
+        <div class="test7"></div>
+
+        <!--Nummerirung (rückwärts)-->
+        dib.test$@-*5
+        <dib class="test5"></dib>
+        <dib class="test4"></dib>
+        <dib class="test3"></dib>
+        <dib class="test2"></dib>
+        <dib class="test1"></dib>
+
+        <!--Nummerirung (rückwärts uns mit Startwert)-->
+        div.test$@-5*5
+        <div class="test9"></div>
+        <div class="test8"></div>
+        <div class="test7"></div>
+        <div class="test6"></div>
+        <div class="test5"></div>
+
+        <!--Abkürzungen gruppieren-->
+        div>(p>span)+div
+        <div>
+            <p>
+                <span></span>
+            </p>
+            <div></div>
+        </div>
+
+        div>p>span^div
+        <div>
+            <p>
+                <span></span>
+            </p>
+            <div></div>
+        </div>
+
+        div>p>span+div
+        <div>
+            <p>
+                <span></span>
+                <div></div>
+            </p>
+        </div>
+    </body>
+
+</html>
