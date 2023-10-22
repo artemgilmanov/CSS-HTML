@@ -1,0 +1,45 @@
+/* Ein Element mit einem bestimten Attribut. */
+[href]{
+    background-color: grey;
+}
+
+/* Ein Element mit einem bestimten Attribut mit einem bestimmten Wert. */
+[id="dasIstEinAnker"]{
+    display: block;
+}
+
+/* Ein Element mit einem bestimten Attribut, das in einem seiner Werte einen bestimten Wert haben muss. */
+[class~="einBild"]{
+    height: 100px;
+}
+
+/* Ein Element mit einem bestimten Attribut, das entweder genau einen bestimten Wert hat
+oder mit einem destimten Wert beginnt, dem ein "-" folgt. */
+[class|="test"]{
+    width: 300px;
+}
+
+/* Ein Element mit einem bestimten Attribut, das mit einem bestimmten Wert beginnt. */
+[title^="Ich bin"]{
+    border: 10px solid blueviolet;
+}
+
+/* Ein Element mit einem bestimten Attribut, das mit einem bestimmten Wert beginnt. */
+[title$="Anker-Element"]{
+    color: aliceblue;
+}
+
+/* Ein Element mit einem bestimten Attribut, das mit einem bestimmten Wert beginnt. */
+[title$="Anker-Element"]{
+    color: aliceblue;
+}
+
+/* Ein Element mit einem bestimten Attribut, das einen bestimmten Wert enthält (egal wo!). */
+[id*="IstEin"]{
+    text-decoration: none;
+}
+
+/* Ein Element mit einem bestimten Attribut, das einen bestimmten Wert endet. */
+[id*="anker" i]{
+    font-weight: bold;
+}
