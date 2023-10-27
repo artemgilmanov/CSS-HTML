@@ -1,0 +1,13 @@
+/* :focus{
+    outline: none;
+    box-shadow: 0 0 0 1px grey, 0 0 10px grey;
+} */
+
+:focus{
+    outline: 2px solid #F543E2;
+}
+
+/* :focus{
+    outline: 2px solid #F543E2;
+    border: 30px solid black;
+} */
